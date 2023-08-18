@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Inter medium';
+    src: url('./assets/Fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto medium';
+    src: url('./assets/Fonts/Roboto-Medium.ttf');
+}
+
+.shaxa {
+    background-image: url("../../assets/images/Photo_s1.jpg");
+
+    &h2 {
+        font-family: "Roboto medium";
+    }
+
+    & .desc {
+        font-family: "Inter medium";
+    }
+
+    &button {
+        & p {
+            font-family: "Inter medium";
+        }
+    }
+}
+
+.wrapper-left {
+    background-image: url("../../assets/images/photo-left.jpg");
+
+    & h2 {
+        font-family: "Roboto medium";
+    }
+
+    p {
+        font-family: "Inter medium";
+    }
+
+    
+}
+
+.wrapper-right {
+    background-image: url("../../assets/images/photo-right.jpg");
+
+    & h2 {
+        font-family: "Roboto medium";
+    }
+
+    p {
+        font-family: "Inter medium";
+    }
+}
+
+.cards{
+
+    .qqq{
+        font-family: "Inter medium";
+    }
+
+    
+}

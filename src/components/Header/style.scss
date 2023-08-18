@@ -1,0 +1,47 @@
+.menyu a{
+    font-family: "Inter medium";
+    }
+
+
+.nav-left h2{
+   font-family: "Inter medium";
+}
+
+.shaxx{
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: blue;
+        width: 0;
+        height: 1px;
+        transition: all 0.3s ease-out;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+.nav-left{
+    h2{
+        &:hover{
+            color: blue;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: blue;
+                width: 0;
+                height: 1px;
+                transition: all 0.3s ease-out;
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}

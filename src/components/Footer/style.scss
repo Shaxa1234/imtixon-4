@@ -1,0 +1,66 @@
+footer {
+    background: var(--neutrals-snow, #F9F9FB);
+    margin-top: 100px;
+
+    .chiziq {
+        border: 1px solid #e9eaee;
+    }
+
+    .fot-p {
+        font-size: 14px;
+        cursor: pointer;
+
+
+
+
+    }
+
+    p {
+        position: relative;
+
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: blue;
+            width: 0;
+            height: 1px;
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+
+    .foter-one {
+        p {
+            font-family: Inter medium;
+            cursor: pointer;
+
+        }
+    }
+
+    .foter-two {
+        font-family: Inter medium;
+        cursor: pointer;
+
+    }
+
+    .foter-three {
+        font-family: Inter medium;
+        cursor: pointer;
+    }
+
+    .foter-four {
+        font-family: Inter medium;
+        cursor: pointer;
+    }
+}
